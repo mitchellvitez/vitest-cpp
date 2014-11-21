@@ -14,6 +14,8 @@ Usage
  * Use `unittest( /* ... */ )` to group tests and run them outside all other functions. All unittests will be run at the point you call `runUnitTests()` (first line of main makes sense) in a random order.
  * Print your location in the program along with a message using `message()`
  * Print your location in the program using `here()`
+ * Everything is in namespace vitest (a portmanteau of "Vitez" and "test")
+ * To avoid using c++11 or certain libraries (functional, algorithm, vector), just comment out the unittest section of the file
 
 ```cpp
 int function(int test, string test2) {

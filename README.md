@@ -21,13 +21,18 @@ Usage
 int function(int test, string test2) {
   precondition(test <= 64, "Less than squares on a chess board");
   precondition(test2.size() > 0);
+  message("Got to just before test++");
   test++;
+  here();
   postcondition(test <= 65);
   return 7;
 }
 
-test(function(5, "hello") == 7, "Should always be 7.");
-test(function(5, "hello") == 7);
+unittest (
+  string str = "goodbye";
+  test(function(5, "hello") == 7, "Should always be 7.");
+  test(function(5, str) == 7);
+)
 ```
 
 *By Mitchell Vitez. Feel free to reuse and modify with attribution.*

@@ -110,5 +110,5 @@ int main() {
 	runOtherTests();
 #endif
 
-	cout << "other code here" << endl;
+	cout << "Non debugging code" << endl;
 }

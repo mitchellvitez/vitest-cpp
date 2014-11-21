@@ -1,5 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Testing for test.h (It's turtles all the way down)                  *
+ * Note: You do NOT need this file to use vitest. test.h contains all  *
+ *  the implementation of the macros and functions                     *
  * The output is somewhat messy looking but it should be enough to fix *
  *  all the bugs in the program and learn how everything works.        *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */

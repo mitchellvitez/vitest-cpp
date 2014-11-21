@@ -25,7 +25,7 @@ int workingFunction(int n) {
 	precondition(n != 0, "n should be nonzero");
 	precondition(n > -10000);
 	n++;
-	x = 0;
+	int x = 0;
 	n = n * n;
 	postcondition(n < 10000);
 	postcondition(n != 1, "n shouldn't be one at this point");
